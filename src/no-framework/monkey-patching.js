@@ -9,4 +9,4 @@ const winner = thumbWar('Kent C. Dodds', 'Ken Wheeler')
 assert.strictEqual(winner, 'Kent C. Dodds')
 
 // cleanup
-utils.getWinner = originalGetWinner
+utils.getWinner = originalGetWinner 
